@@ -1,9 +1,10 @@
 import asyncio
 import random
+import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler
 
-TOKEN = "8522204841:AAHp1ViSssIus6dti0KUClpj4yFABuoSFGQ"
+TOKEN =TOKEN = os.getenv("8522204841:AAHp1ViSssIus6dti0KUClpj4yFABuoSFGQ")
 CODE_PROMO = "SXM229"
 LINK = "https://1w.run/?p=gByP"
 
